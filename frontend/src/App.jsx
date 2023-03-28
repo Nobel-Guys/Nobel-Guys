@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import axios from "axios";
 import NavBar from "./components/NavBar/NavBar";
+import HeroSection from "./components/HeroSection/HeroSection";
 
 function App() {
   axios
@@ -16,6 +17,7 @@ function App() {
   return (
     <div>
       <NavBar />
+      <HeroSection />
     </div>
   );
 }
