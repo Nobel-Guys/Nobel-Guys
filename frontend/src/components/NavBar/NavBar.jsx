@@ -1,38 +1,52 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useState } from "react";
 import "./NavBar.css";
 
 function NavBar() {
-  const [open, setOpen] = useState(false);
+  const [burgerClass, setBurgerClass] = useState("bar unclicked");
 
-  const handleBurgerClick = () => {
-    setOpen(!open);
+  const [menuClass, setMenuClass] = useState("menu hidden");
+
+  const [isMenuClicked, setIsMenuClicked] = useState(false);
+
+  const updateMenu = () => {
+    if (!isMenuClicked) {
+      setBurgerClass("bar clicked");
+      setMenuClass("menu visible");
+    } else {
+      setBurgerClass("bar unclicked");
+      setMenuClass("menu hidden");
+    }
+    setIsMenuClicked(!isMenuClicked);
   };
 
   return (
-    <div className="nav-bar">
-      <img
-        className="logo"
-        src="https://images.ctfassets.net/eqlypemzu8y5/7jcRtl2ykLzTjejTQH8uqr/fa292df0bda2de1e9afdaabe16955901/Nobel_Logo_Dark.png"
-        alt="logo"
-        height="50px"
-      />
-      <nav>
-        <div className="burger-menu">
-          <button
-            type="button"
-            className={open ? "hidden" : "open"}
-            onClick={handleBurgerClick}
+    <div className="nav-container">
+      <div>
+        <nav>
+          <div className="burger-menu" onClick={updateMenu}>
+            <div className={burgerClass} />
+            <div className={burgerClass} />
+            <div className={burgerClass} />
+            {/* <div className="bar" />
+            <div className="bar" />
+            <div className="bar" /> */}
+          </div>
+        </nav>
+        <div className={menuClass} />
+      </div>
+      <div>
+        <div className="logo">
+          <img
+            className="logo-picture"
+            src="https://images.ctfassets.net/eqlypemzu8y5/7jcRtl2ykLzTjejTQH8uqr/fa292df0bda2de1e9afdaabe16955901/Nobel_Logo_Dark.png"
+            alt="logo"
+            height="50px"
           />
-          {open && (
-            <div className="links">
-              {/* <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a> */}
-            </div>
-          )}
         </div>
-      </nav>
+      </div>
     </div>
   );
 }
