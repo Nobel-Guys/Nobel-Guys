@@ -7,19 +7,22 @@
 
 .winners-l {
 
-  margin-top: 25px;
+  margin-top: 50px;
+
   
 }
 
 .subtitle {
-  margin-top: 60px;
-  margin-left: 5%;
+
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px !important;
+ 
 
 }
 
 .hero-container-background{
   background-color: #EEECE8;
+
 }
 
 .winners-column {
@@ -31,6 +34,7 @@ margin-top: 60px;
 text-align: center;
 font-size: 1rem;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+padding-bottom: 40px;
 
 }
 

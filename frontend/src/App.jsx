@@ -1,9 +1,11 @@
+/* eslint-disable import/no-named-as-default */
 /* eslint-disable import/no-extraneous-dependencies */
 import React from "react";
 import "./App.css";
 // import axios from "axios";
 import NavBar from "./components/NavBar/NavBar";
 import HeroSection from "./components/HeroSection/HeroSection";
+import History from "./components/History/History";
 
 function App() {
   // axios
@@ -16,6 +18,7 @@ function App() {
     <div>
       <NavBar />
       <HeroSection />
+      <History />
     </div>
   );
 }
