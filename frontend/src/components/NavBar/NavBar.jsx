@@ -22,6 +22,11 @@ function NavBar() {
     setIsMenuClicked(!isMenuClicked);
   };
 
+  //   const clickOnLink = () => {
+  //     setBurgerClass("bar unclicked");
+  //     setMenuClass("menu hidden");
+  //   };
+
   return (
     <div className="nav-container">
       <div>
@@ -30,14 +35,19 @@ function NavBar() {
             <div className={burgerClass} />
             <div className={burgerClass} />
             <div className={burgerClass} />
-            {/* <div className="bar" />
-            <div className="bar" />
-            <div className="bar" /> */}
           </div>
         </nav>
-        <div className={menuClass} />
+        <div className={menuClass}>
+          <ul>
+            <br />
+            <br />
+            <li>Info</li>
+            <li>Curiosities</li>
+            <li>Past Winners</li>
+          </ul>
+        </div>
       </div>
-      <div>
+      <div className="logo-container">
         <div className="logo">
           <img
             className="logo-picture"
