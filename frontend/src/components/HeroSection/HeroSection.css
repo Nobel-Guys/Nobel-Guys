@@ -40,6 +40,11 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 h4 {
   font-size: 18px;
 
+
+}
+.category-subtitle {
+  text-decoration: underline;
+  font-size: 21px;
 }
 
 q {

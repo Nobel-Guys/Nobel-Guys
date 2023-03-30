@@ -18,7 +18,9 @@ function HeroSection() {
           width="55%"
         />
 
-        <h4>Medicine &nbsp;&mdash;&nbsp; Svante Pääbo</h4>
+        <h4>
+          <div className="category-subtitle"> Medicine</div> <br /> Svante Pääbo
+        </h4>
 
         <q>
           for his discoveries concerning the genomes of extinct hominins and
@@ -32,7 +34,10 @@ function HeroSection() {
           width="55%"
         />
 
-        <h4>Literature &nbsp;&mdash;&nbsp; Annie Ernaux</h4>
+        <h4>
+          <div className="category-subtitle">Literature</div>
+          <br /> Annie Ernaux
+        </h4>
 
         <q>
           for the courage and clinical acuity with which she uncovers the roots,
@@ -46,7 +51,11 @@ function HeroSection() {
           width="55%"
         />
         <p>
-          <h4>Peace &nbsp;&mdash; &nbsp; Ales Bialiatski</h4>
+          <h4>
+            <div className="category-subtitle">Peace</div>
+            <br />
+            Ales Bialiatski
+          </h4>
         </p>
         <q>
           for documenting war crimes, human right abuses and the abuse of power.
@@ -60,8 +69,10 @@ function HeroSection() {
         />
 
         <h4>
-          Physics&nbsp;&mdash; &nbsp;Alain Aspect &nbsp; | &nbsp;John F. Clauser
-          &nbsp;| &nbsp;Anton Zeilinger
+          <div className="category-subtitle">Physics</div>
+          <br />
+          Alain Aspect &nbsp; | &nbsp;John F. Clauser &nbsp;| &nbsp;Anton
+          Zeilinger
         </h4>
 
         <q>
@@ -77,8 +88,10 @@ function HeroSection() {
         />
         <p>
           <h4>
-            Chemistry &nbsp;&mdash; &nbsp;Carolyn R. Bertozzi&nbsp; |
-            &nbsp;Morten Meldal &nbsp;|&nbsp;K. Barry
+            <div className="category-subtitle">Chemistry</div>
+            <br />
+            Carolyn R. Bertozzi&nbsp; | &nbsp;Morten Meldal &nbsp;|&nbsp;K.
+            Barry
           </h4>
         </p>
         <q>
@@ -91,12 +104,13 @@ function HeroSection() {
           alt="alain aspect"
           width="60%"
         />
-        <p>
-          <h4>
-            Econimc Sciences &nbsp;&mdash; &nbsp;Ben Bernanke &nbsp;|
-            &nbsp;Douglas Diamond &nbsp;|&nbsp; Philip Dybvig
-          </h4>
-        </p>
+
+        <h4>
+          <div className="category-subtitle">Economic Sciences</div>
+          <br />
+          Ben Bernanke &nbsp;| &nbsp;Douglas Diamond &nbsp;|&nbsp; Philip Dybvig
+        </h4>
+
         <q>for research on banks and financial crises.</q>
       </div>
     </div>
