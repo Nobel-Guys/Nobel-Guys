@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar/NavBar";
 import HeroSection from "./components/HeroSection/HeroSection";
 import History from "./components/History/History";
 import Medals from "./components/Medals/Medals";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   // axios
@@ -21,6 +22,7 @@ function App() {
       <HeroSection />
       <History />
       <Medals />
+      <Footer />
     </div>
   );
 }
