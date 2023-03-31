@@ -1,0 +1,25 @@
+.background-color-medals {
+    background-color: black;
+   
+}
+
+.subtitle3 {
+    color: #BB8A36;
+   padding-top: 80px;
+   font-size: 50px;
+}
+
+.medal-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px ;
+    
+    }
+    h2 {
+        color: #BB8A36;
+         margin-top: -75px;
+        text-decoration: underline;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+    }

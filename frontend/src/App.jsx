@@ -6,6 +6,7 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import HeroSection from "./components/HeroSection/HeroSection";
 import History from "./components/History/History";
+import Medals from "./components/Medals/Medals";
 
 function App() {
   // axios
@@ -19,6 +20,7 @@ function App() {
       <NavBar />
       <HeroSection />
       <History />
+      <Medals />
     </div>
   );
 }

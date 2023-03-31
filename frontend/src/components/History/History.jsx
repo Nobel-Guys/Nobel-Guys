@@ -7,6 +7,7 @@ function History() {
       <div className="history-card">
         <h1 className="subtitle2">The Story of Nobel</h1>
         <img
+          className="alfred-nobel"
           src="https://d3i6fh83elv35t.cloudfront.net/newshour/app/uploads/2015/12/AlfredNobel_adjusted-762x1024.jpg"
           alt="alfred"
           width="70%"
