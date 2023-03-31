@@ -20,8 +20,12 @@ nav {
 }
 
 .logo {
-   
-    margin-left: 32%;   /*review------*/
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    position: relative;
+    margin-left: 31%;
+    
 }
 
 
@@ -34,8 +38,6 @@ nav {
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
-    margin-top: 7px;
-   
  
   
 }
