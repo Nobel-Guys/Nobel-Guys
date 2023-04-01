@@ -70,7 +70,7 @@ nav {
 }
 
 .bar.clicked:nth-child(1) {
-    transform:rotate(45deg) translate(0.3em, 1.25em);
+    transform:rotate(45deg) translate(0.25em, 1.25em);
     transition: ease-out 0.5s;
 }
 
@@ -80,7 +80,7 @@ nav {
 }
 
 .bar.clicked:nth-child(3) {
-    transform:rotate(135deg) translate(0em, 1em);
+    transform:rotate(135deg) translate(0.05em, 1em);
     transition: ease-out 0.5s;
 }
 
