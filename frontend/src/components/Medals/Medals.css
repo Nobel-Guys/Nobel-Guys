@@ -4,7 +4,7 @@
 }
 
 .subtitle3 {
-    color: #BB8A36;
+    color: white;
    padding-top: 80px;
    font-size: 50px;
 }
@@ -18,9 +18,8 @@
     
     }
     h2 {
-        color: #BB8A36;
+        color: white;
          margin-top: -75px;
-        text-decoration: underline;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
     }
