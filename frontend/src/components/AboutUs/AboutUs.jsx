@@ -31,19 +31,48 @@ function AboutUs() {
             alt="Duarte"
             width="50%"
           />
-          <h3>Duarte Jorge</h3>
+          <h3 className="team-subtitle">Duarte Jorge</h3>
+          <div className="icon-container">
+            <img
+              className="linkedin-logo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ1tR5ualXXIjo6jTZQDaEnQPCFDFDXqJ6yxm2ppU&s"
+              alt="linkedin-icon"
+              width="5%"
+            />
+            <img
+              className="github-logo"
+              src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png"
+              alt="github logo"
+              width="5%"
+            />
+          </div>
           <img
             src="https://media.licdn.com/dms/image/C4E03AQFCnDweij5KKg/profile-displayphoto-shrink_800_800/0/1541781393845?e=1686182400&v=beta&t=oXPe4b3SpxYwwpF2MOaF4R5T2BVRgSevbxnw99e8TNQ"
             alt="Nuno"
             width="50%"
           />
-          <h3>Nuno Colaço</h3>
+          <h3 className="team-subtitle">Nuno Colaço</h3>
+          <div className="icon-container">
+            <img
+              className="linkedin-logo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ1tR5ualXXIjo6jTZQDaEnQPCFDFDXqJ6yxm2ppU&s"
+              alt="linkedin-icon"
+              width="5%"
+            />
+            <img
+              className="github-logo"
+              src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png"
+              alt="github logo"
+              width="5%"
+            />
+          </div>
+
           <img
             src="https://media.licdn.com/dms/image/D4D03AQHUPVUw3ilx3Q/profile-displayphoto-shrink_400_400/0/1671643409499?e=1686182400&v=beta&t=UgW3g4XkUQk-QzD_lTJ_bS8NnF9aRRY7z_pTl4IUsh0"
             alt="Ricardo"
             width="50%"
           />
-          <h3>Ricardo Bento</h3>
+          <h3>Ricardo Pereira</h3>
         </div>
       </div>
       <Footer />
