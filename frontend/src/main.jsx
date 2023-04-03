@@ -6,7 +6,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutUs from "./components/AboutUs/AboutUs";
 import App from "./App";
 import NotableWinners from "./components/NotableWinners/NotableWinners";
-import Chemistry from "./components/Chemistry/Chemistry";
 
 const router = createBrowserRouter([
   {
@@ -20,10 +19,6 @@ const router = createBrowserRouter([
   {
     path: "/notablewinners",
     element: <NotableWinners />,
-  },
-  {
-    path: "/chemistry",
-    element: <Chemistry />,
   },
 ]);
 
