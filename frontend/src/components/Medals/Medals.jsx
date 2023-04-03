@@ -13,7 +13,7 @@ function Medals() {
           alt="medal"
           width="50%"
         />
-        <h2>Physics</h2>
+        <h2 className="medal-subtitle">Physics</h2>
 
         <img
           className="medal"
@@ -21,35 +21,35 @@ function Medals() {
           alt="medal"
           width="50%"
         />
-        <h2>Medicine</h2>
+        <h2 className="medal-subtitle">Medicine</h2>
         <img
           className="medal"
           src="https://c1.wallpaperflare.com/preview/611/66/470/nobel-prize-nobel-award-prize-giving-ceremony.jpg"
           alt="medal"
           width="50%"
         />
-        <h2>Literature</h2>
+        <h2 className="medal-subtitle">Literature</h2>
         <img
           className="medal"
           src="https://c1.wallpaperflare.com/preview/611/66/470/nobel-prize-nobel-award-prize-giving-ceremony.jpg"
           alt="medal"
           width="50%"
         />
-        <h2>Chemistry</h2>
+        <h2 className="medal-subtitle">Chemistry</h2>
         <img
           className="medal"
           src="https://c1.wallpaperflare.com/preview/611/66/470/nobel-prize-nobel-award-prize-giving-ceremony.jpg"
           alt="medal"
           width="50%"
         />
-        <h2>Economic Sciences</h2>
+        <h2 className="medal-subtitle">Economic Sciences</h2>
         <img
           className="medal"
           src="https://c1.wallpaperflare.com/preview/611/66/470/nobel-prize-nobel-award-prize-giving-ceremony.jpg"
           alt="medal"
           width="50%"
         />
-        <h2>Peace</h2>
+        <h2 className="medal-subtitle">Peace</h2>
       </div>
     </div>
   );

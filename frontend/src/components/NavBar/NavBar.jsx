@@ -1,8 +1,10 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useState } from "react";
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [burgerClass, setBurgerClass] = useState("bar unclicked");
@@ -41,9 +43,15 @@ function NavBar() {
           <ul>
             <br />
             <br />
-            <li>Info</li>
-            <li>Curiosities</li>
-            <li>Past Winners</li>
+            <Link to="/">
+              <li>Home</li>
+            </Link>
+            <Link to="/notablewinners">
+              <li>Notable Winners</li>
+            </Link>
+            <Link to="/AboutUs">
+              <li>About Us</li>
+            </Link>
           </ul>
         </div>
       </div>

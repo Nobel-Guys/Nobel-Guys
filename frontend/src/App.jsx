@@ -1,3 +1,4 @@
+/* eslint-disable import/no-duplicates */
 /* eslint-disable import/no-named-as-default */
 /* eslint-disable import/no-extraneous-dependencies */
 import React from "react";
