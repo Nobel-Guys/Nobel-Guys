@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutUs.css";
 import NavBar from "../NavBar/NavBar";
+import Footer from "../Footer/Footer";
 
 function AboutUs() {
   return (
@@ -42,9 +43,10 @@ function AboutUs() {
             alt="Ricardo"
             width="50%"
           />
-          <h3>Ricardo Pereira</h3>
+          <h3>Ricardo Bento</h3>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

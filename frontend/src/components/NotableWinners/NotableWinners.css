@@ -1,0 +1,32 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.notable-winners-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  
+}
+
+.notable-winner-picture{
+
+margin-top: 100px;
+margin-bottom: 20px;
+}
+
+.notable-winners-container p {
+    margin-top: 10px;
+    max-width: 75%;
+    text-align: center;
+}
+
+.notable-winners-title{
+    margin-bottom: -40px;
+    margin-top: 60px;
+ margin-left:7%;
+
+
+}
