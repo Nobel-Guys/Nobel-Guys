@@ -54,7 +54,7 @@ function NavBar() {
           </div>
         </nav>
         <div className={menuClass}>
-          <ul className="nav-ul">
+          <div className="nav-ul">
             <br />
             <br />
             <Link
@@ -62,23 +62,23 @@ function NavBar() {
               onClick={closeMenu}
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <li className="nav-list">Home</li>
+              <div className="nav-list">Home</div>
             </Link>
             <Link
               onClick={closeMenu}
               to="/notablewinners"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <li className="nav-list">Notable Winners</li>
+              <div className="nav-list">Notable Winners</div>
             </Link>
             <Link
               onClick={closeMenu}
               to="/AboutUs"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <li className="nav-list">About Us</li>
+              <div className="nav-list">About Us</div>
             </Link>
-          </ul>
+          </div>
         </div>
       </div>
       <div className="logo">

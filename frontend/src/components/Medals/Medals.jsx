@@ -6,9 +6,8 @@ import { Link } from "react-router-dom";
 function Medals() {
   return (
     <div className="background-color-medals">
+      <h1 className="subtitle3">Categories</h1>
       <div className="medal-column">
-        <h1 className="subtitle3">Categories</h1>
-
         <Link
           to="/chemistry"
           style={{ display: "flex", justifyContent: "center" }}

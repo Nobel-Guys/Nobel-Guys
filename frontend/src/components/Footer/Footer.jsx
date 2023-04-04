@@ -4,22 +4,35 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="footer-container">
       <div className="ul-container">
         <div className="footer-ul">
-          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+          <Link
+            to="/"
+            style={{ textDecoration: "none", color: "inherit" }}
+            onClick={scrollToTop}
+          >
             <div className="footer-list">Home</div>
           </Link>
           <Link
             to="/notablewinners"
             style={{ textDecoration: "none", color: "inherit" }}
+            onClick={scrollToTop}
           >
             <div className="footer-list">Notable Winners</div>
           </Link>
           <Link
             to="/AboutUs"
             style={{ textDecoration: "none", color: "inherit" }}
+            onClick={scrollToTop}
           >
             <div className="footer-list">About Us</div>
           </Link>

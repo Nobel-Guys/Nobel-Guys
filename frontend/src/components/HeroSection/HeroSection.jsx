@@ -9,9 +9,8 @@ function HeroSection() {
         src="https://news.columbia.edu/sites/default/files/styles/cu_crop/public/content/2022/nobel-prize-medal-2.jpg?itok=6WkTd0wD"
         alt="nobel hero"
       />
+      <h1 className="subtitle">2022 Laureates</h1>
       <div className="winners-column">
-        <h1 className="subtitle">2022 Laureates</h1>
-
         <img
           className="winners-l"
           src="https://www.nobelprize.org/uploads/2022/10/paabo-3_2-992x656.jpg"
@@ -80,7 +79,6 @@ function HeroSection() {
           for experiments with entangled photons, establishing the violation of
           Bell inequalities and pioneering quantum information science.
         </q>
-
         <img
           className="winners-l"
           src="https://www.nobelprize.org/uploads/2022/10/bertozzi_meldal_sharpless-3_2-992x656.jpg"

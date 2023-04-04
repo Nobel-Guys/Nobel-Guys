@@ -32,7 +32,7 @@ function AboutUs() {
             alt="Duarte"
             width="50%"
           />
-          <h3 className="team-subtitle">Duarte Jorge</h3>
+          <h2>Duarte Jorge</h2>
           <div className="icon-container">
             <img
               className="linkedin-logo"
@@ -53,7 +53,7 @@ function AboutUs() {
             alt="Nuno"
             width="50%"
           />
-          <h3 className="team-subtitle">Nuno Colaço</h3>
+          <h2>Nuno Colaço</h2>
           <div className="icon-container">
             <img
               className="linkedin-logo"
@@ -75,7 +75,7 @@ function AboutUs() {
             alt="Ricardo"
             width="50%"
           />
-          <h3 className="team-subtitle">Ricardo Correia</h3>
+          <h2>Ricardo Correia</h2>
           <div className="icon-container">
             <img
               className="linkedin-logo"
