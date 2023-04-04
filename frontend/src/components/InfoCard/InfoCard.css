@@ -1,5 +1,12 @@
-.info-card {
+.card-text{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+
+.info-card{
+    border: 3px solid black;
+    display: flex;
+    color: #000;
 }
