@@ -4,9 +4,9 @@
 }
 
 .subtitle3 {
-    color: white;
+    color: rgb(242,243,244);
    padding-top: 80px;
-   font-size: 50px;
+   font-size: 40px;
 }
 
 .medal-column {
@@ -18,8 +18,15 @@
     
     }
     .medal-subtitle {
-        color: white;
+        color: rgb(242,243,244);
          margin-top: -75px;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+    }
+
+    .medal {
+        /* -webkit-box-shadow: -1px -3px 78px 7px rgba(255, 255, 255, 0.172);
+-moz-box-shadow: -1px -3px 78px 7px rgba(255,255,255,0.34);
+box-shadow: -1px -3px 78px 7px rgba(255,255,255,0.34); */
 
     }

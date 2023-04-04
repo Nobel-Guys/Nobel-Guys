@@ -27,6 +27,7 @@ function AboutUs() {
         <h1 className="team-subtitle">The Team</h1>
         <div className="team-container">
           <img
+            className="team-picture"
             src="https://media.licdn.com/dms/image/D5603AQE18uOf1sNnpQ/profile-displayphoto-shrink_800_800/0/1670541950973?e=1686182400&v=beta&t=Dq65u4jSNaSlLHYfVywISZTtdIk2nvXdDf2at18xph0"
             alt="Duarte"
             width="50%"
@@ -47,6 +48,7 @@ function AboutUs() {
             />
           </div>
           <img
+            className="team-picture"
             src="https://media.licdn.com/dms/image/C4E03AQFCnDweij5KKg/profile-displayphoto-shrink_800_800/0/1541781393845?e=1686182400&v=beta&t=oXPe4b3SpxYwwpF2MOaF4R5T2BVRgSevbxnw99e8TNQ"
             alt="Nuno"
             width="50%"
@@ -68,6 +70,7 @@ function AboutUs() {
           </div>
 
           <img
+            className="team-picture"
             src="https://media.licdn.com/dms/image/D4D03AQHUPVUw3ilx3Q/profile-displayphoto-shrink_400_400/0/1671643409499?e=1686182400&v=beta&t=UgW3g4XkUQk-QzD_lTJ_bS8NnF9aRRY7z_pTl4IUsh0"
             alt="Ricardo"
             width="50%"

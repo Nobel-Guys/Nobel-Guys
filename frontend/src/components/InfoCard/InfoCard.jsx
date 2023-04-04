@@ -10,7 +10,7 @@ function InfoCard(props) {
       <div className="card-text">
         <h1>{date}</h1>
         <h2>{name}</h2>
-        <p>{text}</p>
+        <p className="text-area">{text}</p>
       </div>
       <img
         src="https://s4.static.brasilescola.uol.com.br/be/conteudo/images/2-albert-einstein.jpg"

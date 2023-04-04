@@ -8,6 +8,9 @@
 .alfred-nobel{
     object-fit: cover;
     margin-top: 40px;
+    -webkit-box-shadow: 0px 10px 38px -4px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 10px 38px -4px rgba(0,0,0,0.42);
+box-shadow: 0px 10px 38px -4px rgba(0,0,0,0.42);
 }
 .history-card {
 display: flex;
@@ -21,7 +24,7 @@ margin-top: 15px;
 .subtitle2 {
     margin-top: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
   
   }
 

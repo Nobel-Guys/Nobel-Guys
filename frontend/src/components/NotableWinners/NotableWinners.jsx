@@ -28,8 +28,8 @@ function NotableWinners() {
         />
         <h2>Leonid Hurwicz</h2>
         <p>
-          Malala Yousafzai is the youngest Nobel laureate ever, awarded the
-          Nobel Peace Prize in 2014 at the age of 17.
+          The oldest Nobel laureate was Leonid Hurwicz, who won the Nobel Prize
+          in Economics in 2007 at the age of 90.
         </p>
         <img
           className="notable-winner-picture"
