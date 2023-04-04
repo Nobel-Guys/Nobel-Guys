@@ -1,17 +1,16 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import "./InfoCard.css";
 
-function InfoCard() {
+function InfoCard(props) {
+  const { date, name, text } = props;
+
   return (
     <div className="info-card">
       <div className="card-text">
-        <h1>1923</h1>
-        <h2>Albert Einstein</h2>
-        <p>
-          Albert Einstein, widely regarded as one of the greatest physicists of
-          all time, was never awarded the Nobel Prize for his theory of
-          relativity.
-        </p>
+        <h1>{date}</h1>
+        <h2>{name}</h2>
+        <p>{text}</p>
       </div>
       <img
         src="https://s4.static.brasilescola.uol.com.br/be/conteudo/images/2-albert-einstein.jpg"
