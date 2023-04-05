@@ -15,7 +15,7 @@ function NotableWinners() {
           alt="Malala"
           width="45%"
         />
-        <h2>Malala Tousafzai</h2>
+        <h2>Malala Yousafzai</h2>
         <p>
           Malala Yousafzai is the youngest Nobel laureate ever, awarded the
           Nobel Peace Prize in 2014 at the age of 17.

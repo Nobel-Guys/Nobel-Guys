@@ -1,3 +1,7 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-restricted-syntax */
+/* eslint-disable no-unused-expressions */
+/* eslint-disable import/order */
 /* eslint-disable import/no-extraneous-dependencies */
 import React from "react";
 import {
@@ -7,11 +11,43 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import NavBar from "../NavBar/NavBar";
 import InfoCard from "../InfoCard/InfoCard";
+import "./Chemistry.css";
+// import axios from "axios";
 
 function Chemistry() {
+  //   const [chemistry, setChemistry] = useState([]);
+
+  //   useEffect(() => {
+  //     axios
+  //       .get(
+  //         "https://api.nobelprize.org/2.1/laureates?_ga=2.80023191.1466721709.1679661688-1905291879.1679661688"
+  //       )
+  //       .then((response) => {
+  //         const { data } = response;
+
+  //         const filteredLaureates = data.laureates.filter(
+  //           (laureate) =>
+  //             laureate.knownName &&
+  //             laureate.knownName.en &&
+  //             ["otto hahn", "linus pauling", "frances arnold"].includes(
+  //               laureate.knownName.en.toLowerCase()
+  //             )
+  //         );
+  //         setChemistry(filteredLaureates);
+  //       });
+  //   }, []);
+
   return (
     <div>
       <NavBar />
+      <h1 className="subtitle4">Chemistry</h1>
+      <div className="intro-container">
+        <p>
+          This timeline highlights some of the most significant Nobel Prize
+          works in the field of Chemistry, starting from the first year of the
+          award's inception in 1901.
+        </p>
+      </div>
       <div className="timeline">
         <VerticalTimeline lineColor="#000">
           <VerticalTimelineElement
@@ -19,9 +55,9 @@ function Chemistry() {
             iconStyle={{ background: "#000", color: "#fff" }}
             date={
               <InfoCard
-                date="1923"
+                date="Albert Einstein"
                 name="Albert Einstein"
-                text="Albert Einstein, widely regarded as one of the greatest physicists of all time, was never awarded the Nobel Prize for his theory of relativity."
+                text="Albert Einstein"
               />
             }
           />
@@ -32,9 +68,9 @@ function Chemistry() {
             iconStyle={{ background: "#000", color: "#fff" }}
             date={
               <InfoCard
-                date="1968"
-                name="Nuno Bento"
-                text="Legend has it that Nuno Bento was born as a 80 year old baby, who is slowly regressing to become a newborn by 2045."
+                date="Albert Einstein"
+                name="Albert Einstein"
+                text="Albert Einstein"
               />
             }
           />
@@ -45,9 +81,9 @@ function Chemistry() {
             iconStyle={{ background: "#000", color: "#fff" }}
             date={
               <InfoCard
-                date="2011"
-                name="Duarte Jorge"
-                text="Duarte is a curious young man whose dream is to one day become a professional gardener. He already started his journey by buying a flower in Ikea"
+                date="Albert Einstein"
+                name="Albert Einstein"
+                text="Albert Einstein"
               />
             }
           />
@@ -58,9 +94,9 @@ function Chemistry() {
             iconStyle={{ background: "#000", color: "#fff" }}
             date={
               <InfoCard
-                date="2019"
-                name="Lewis"
-                text="Really needing no introduction, the web developer instructorfirst ma been able to scam more than 3000 students"
+                date="Albert Einstein"
+                name="Albert Einstein"
+                text="Albert Einstein"
               />
             }
           />
