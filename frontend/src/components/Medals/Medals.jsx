@@ -9,7 +9,7 @@ function Medals() {
       <h1 className="subtitle3">Categories</h1>
       <div className="medal-column">
         <Link
-          to="/categories"
+          to="/categories/phy"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img
@@ -22,7 +22,7 @@ function Medals() {
         <h2 className="medal-subtitle">Physics</h2>
 
         <Link
-          to="/chemistry"
+          to="/categories/med"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img
@@ -34,7 +34,7 @@ function Medals() {
         </Link>
         <h2 className="medal-subtitle">Medicine</h2>
         <Link
-          to="/chemistry"
+          to="/categories/lit"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img
@@ -47,7 +47,7 @@ function Medals() {
         <h2 className="medal-subtitle">Literature</h2>
 
         <Link
-          to="/chemistry"
+          to="/categories/che"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img
@@ -59,7 +59,7 @@ function Medals() {
         </Link>
         <h2 className="medal-subtitle">Chemistry</h2>
         <Link
-          to="/chemistry"
+          to="/categories/eco"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img
@@ -73,7 +73,7 @@ function Medals() {
         <h2 className="medal-subtitle">Economic Sciences</h2>
 
         <Link
-          to="/chemistry"
+          to="/categories/pea"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img
