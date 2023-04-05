@@ -1,37 +1,30 @@
 .background-color-medals {
-    background-color: black;
-   
+  background-color: black;
 }
 
 .subtitle3 {
-    color: rgb(242,243,244);
+  color: rgb(242, 243, 244);
 
-    padding-top: 80px;
-    font-size: 40px;
-    margin-left: 14%;
-   
-    
+  padding-top: 80px;
+  font-size: 40px;
+  margin-left: 14%;
 }
 
 .medal-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px ;
-    padding-bottom: 120px;
-    margin-top: 35px;
-    
-    }
-    .medal-subtitle {
-        color: rgb(242,243,244);
-         margin-top: -75px;
-      
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 120px;
+  margin-top: 35px;
+}
+.medal-subtitle {
+  color: rgb(242, 243, 244);
+  margin-top: -75px;
+}
 
-    }
-
-    .medal {
-        /* -webkit-box-shadow: -1px -3px 78px 7px rgba(255, 255, 255, 0.172);
+.medal {
+  /* -webkit-box-shadow: -1px -3px 78px 7px rgba(255, 255, 255, 0.172);
 -moz-box-shadow: -1px -3px 78px 7px rgba(255,255,255,0.34);
 box-shadow: -1px -3px 78px 7px rgba(255,255,255,0.34); */
-
-    }
+}

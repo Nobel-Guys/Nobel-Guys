@@ -4,11 +4,13 @@
 import React from "react";
 import "./App.css";
 // import axios from "axios";
+import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
-import HeroSection from "./components/HeroSection/HeroSection";
-import History from "./components/History/History";
-import Medals from "./components/Medals/Medals";
 import Footer from "./components/Footer/Footer";
+import HomePage from "./pages/HomePage/HomePage";
+import AboutUs from "./components/AboutUs/AboutUs";
+import NotableWinners from "./components/NotableWinners/NotableWinners";
+import Chemistry from "./components/Chemistry/Chemistry";
 
 function App() {
   // axios
@@ -20,9 +22,12 @@ function App() {
   return (
     <div>
       <NavBar />
-      <HeroSection />
-      <History />
-      <Medals />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/notable-winners" element={<NotableWinners />} />
+        <Route path="/categories" element={<Chemistry />} />
+      </Routes>
       <Footer />
     </div>
   );

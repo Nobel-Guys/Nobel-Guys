@@ -66,14 +66,14 @@ function NavBar() {
             </Link>
             <Link
               onClick={closeMenu}
-              to="/notablewinners"
+              to="/notable-winners"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="nav-list">Notable Winners</div>
             </Link>
             <Link
               onClick={closeMenu}
-              to="/AboutUs"
+              to="/about-us"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="nav-list">About Us</div>

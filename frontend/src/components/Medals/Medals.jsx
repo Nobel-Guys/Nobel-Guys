@@ -9,7 +9,7 @@ function Medals() {
       <h1 className="subtitle3">Categories</h1>
       <div className="medal-column">
         <Link
-          to="/chemistry"
+          to="/categories"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img

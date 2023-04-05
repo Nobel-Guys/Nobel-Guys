@@ -1,12 +1,9 @@
 import React from "react";
-import NavBar from "../NavBar/NavBar";
 import "./NotableWinners.css";
-import Footer from "../Footer/Footer";
 
 function NotableWinners() {
   return (
     <>
-      <NavBar />
       <h1 className="notable-winners-title">Notable Winners</h1>
       <div className="notable-winners-container">
         <img
@@ -127,7 +124,6 @@ function NotableWinners() {
           vitamin C as a treatment for various illnesses.
         </p>
       </div>
-      <Footer />
     </>
   );
 }

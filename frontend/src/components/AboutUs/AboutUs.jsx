@@ -1,12 +1,9 @@
 import React from "react";
 import "./AboutUs.css";
-import NavBar from "../NavBar/NavBar";
-import Footer from "../Footer/Footer";
 
 function AboutUs() {
   return (
     <div>
-      <NavBar />
       <h1 className="subtitle-about-us">About Us</h1>
       <div className="about-us-container">
         <div className="text-container">
@@ -92,7 +89,6 @@ function AboutUs() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

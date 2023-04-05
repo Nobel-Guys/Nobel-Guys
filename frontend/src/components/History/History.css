@@ -1,41 +1,36 @@
-.history-container{
-    background-color: rgba(175,141,80,0.37);
-    padding-top: 40px;
-
-   
+.history-container {
+  background-color: rgba(175, 141, 80, 0.37);
+  padding-top: 40px;
 }
 
-.alfred-nobel{
-    object-fit: cover;
-    margin-top: 40px;
-    -webkit-box-shadow: 0px 10px 38px -4px rgba(0,0,0,0.42);
--moz-box-shadow: 0px 10px 38px -4px rgba(0,0,0,0.42);
-box-shadow: 0px 10px 38px -4px rgba(0,0,0,0.42);
+.alfred-nobel {
+  object-fit: cover;
+  margin-top: 40px;
+  -webkit-box-shadow: 0px 10px 38px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px 10px 38px -4px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 10px 38px -4px rgba(0, 0, 0, 0.42);
 }
 .history-card {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 30px;
-margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 15px;
 }
 
 .subtitle2 {
- 
   margin-top: 35px;
   font-size: 40px;
   margin-left: 7%;
- 
-  }
+}
 
-  .history-text {
-   
-    margin: 20px;
-    margin-right: 40px;
-    margin-left: 40px;
-    font-size: 18px;
-    margin-bottom: 120px;
-    line-height: 1.5;
-    margin-top: 30px;
-  }
+.history-text {
+  margin: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-size: 18px;
+  margin-bottom: 120px;
+  line-height: 1.5;
+  margin-top: 30px;
+}
