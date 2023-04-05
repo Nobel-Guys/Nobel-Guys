@@ -15,9 +15,10 @@
 
 .subtitle {
 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 20px !important;
-  font-size: 50px;
+
+  margin-top: 60px !important;
+  font-size: 40px;
+  margin-left: 7%;
  
 
 }
@@ -31,12 +32,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25px;
-margin-top: 60px;
+  gap: 15px;
+margin-top: 35px;
 text-align: center;
 font-size: 1rem;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-padding-bottom: 40px;
+padding-bottom: 60px;
 
 }
 
@@ -49,12 +49,15 @@ h4 {
 
 }
 .category-subtitle {
+
   text-decoration: underline;
   font-size: 21px;
 }
 
 q {
   font-size: 15px;
-  max-width: 50%;
+max-width: 50%;
   margin-bottom: 35px;
 }
+
+

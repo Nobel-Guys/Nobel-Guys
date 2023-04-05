@@ -1,0 +1,33 @@
+.notable-winners-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.notable-winner-picture{
+
+margin-top: 100px;
+margin-bottom: 20px;
+-webkit-box-shadow: 0px 10px 38px -4px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 10px 38px -4px rgba(0,0,0,0.42);
+box-shadow: 0px 10px 38px -4px rgba(0,0,0,0.42);
+}
+
+.notable-winners-container p {
+    margin-top: 10px;
+    max-width: 75%;
+    text-align: center;
+}
+
+.notable-winners-title {
+    margin-bottom: -40px;
+    margin-top: 60px;
+ margin-left:7%;
+ font-size: 40px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

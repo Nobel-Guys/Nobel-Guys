@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
@@ -17,17 +18,30 @@ function NavBar() {
     if (!isMenuClicked) {
       setBurgerClass("bar clicked");
       setMenuClass("menu visible");
+      // document.body.classList.add("no-scroll"); add no-scroll
     } else {
       setBurgerClass("bar unclicked");
       setMenuClass("menu hidden");
+      // document.body.classList.remove("no-scroll"); remove no-scroll
     }
     setIsMenuClicked(!isMenuClicked);
   };
 
-  //   const clickOnLink = () => {
-  //     setBurgerClass("bar unclicked");
-  //     setMenuClass("menu hidden");
+  const closeMenu = () => {
+    setBurgerClass("bar unclicked");
+    setMenuClass("menu hidden");
+    document.body.style.overflow = "auto";
+    setIsMenuClicked(false);
+  };
+
+  // useEffect(() => {
+  //   const unlisten = history.listen(() => {
+  //     closeMenu();
+  //   });
+  //   return () => {
+  //     unlisten();
   //   };
+  // }, [history]);
 
   return (
     <div className="nav-container">
@@ -40,19 +54,31 @@ function NavBar() {
           </div>
         </nav>
         <div className={menuClass}>
-          <ul>
+          <div className="nav-ul">
             <br />
             <br />
-            <Link to="/">
-              <li>Home</li>
+            <Link
+              to="/"
+              onClick={closeMenu}
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <div className="nav-list">Home</div>
             </Link>
-            <Link to="/notablewinners">
-              <li>Notable Winners</li>
+            <Link
+              onClick={closeMenu}
+              to="/notablewinners"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <div className="nav-list">Notable Winners</div>
             </Link>
-            <Link to="/AboutUs">
-              <li>About Us</li>
+            <Link
+              onClick={closeMenu}
+              to="/AboutUs"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <div className="nav-list">About Us</div>
             </Link>
-          </ul>
+          </div>
         </div>
       </div>
       <div className="logo">

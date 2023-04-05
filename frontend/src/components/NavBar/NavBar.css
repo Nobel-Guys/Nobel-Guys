@@ -53,12 +53,14 @@ nav {
 
 .menu {
     width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    height: 885vh;
+    background-color: rgba(0, 0, 0, 0.85);
     position: absolute;
     /* top: 0; */
     left: 0;
     z-index: 1;
+    
+
 }
 
 .hidden {
@@ -67,6 +69,10 @@ nav {
 
 .visible {
     display: inherit;
+}
+
+.no-scroll{
+    overflow: hidden;
 }
 
 .bar.clicked:nth-child(1) {
@@ -90,19 +96,21 @@ nav {
 
 }
 
-ul {color: #BB8A36;
+.nav-ul {  color: rgb(242,243,244);;
 display: flex;
 flex-direction: column;
-gap: 40px;
+gap: 100px;
 margin-top: -20px;
 align-items: center;
 }
 
-li {list-style-type: none;
-    font-size: 25px;
+
+.nav-list {list-style-type: none;
+    font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    text-transform: uppercase;
-   border-bottom: solid 2px #BB8A36;
+   border-bottom: solid 2px rgb(242,243,244);
    border-width: 100%;
    padding-bottom:  10px;
+
 }
