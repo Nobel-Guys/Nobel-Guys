@@ -130,20 +130,21 @@ function Categories() {
       <div className="timeline">
         <VerticalTimeline lineColor="#000">
           {laureates
-            ? laureates.map((result) => (
-                <div key={result.id}>
-                  <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    iconStyle={{ background: "#000", color: "#fff" }}
-                    date={
-                      <InfoCard
-                        date={result?.nobelPrizes[0]?.awardYear}
-                        name={result?.knownName?.en}
-                        text={result?.nobelPrizes[0]?.motivation?.en}
-                      />
-                    }
-                  />
-                </div>
+            ? laureates.map((result, index) => (
+                // <div key={result.id}>
+                <VerticalTimelineElement
+                  className="vertical-timeline-element--education"
+                  iconStyle={{ background: "#000", color: "#fff" }}
+                  date={
+                    <InfoCard
+                      date={result?.nobelPrizes[0]?.awardYear}
+                      name={result?.knownName?.en}
+                      text={result?.nobelPrizes[0]?.motivation?.en}
+                      image={imagesArray[type][index]}
+                    />
+                  }
+                />
+                // </div>
               ))
             : null}
         </VerticalTimeline>

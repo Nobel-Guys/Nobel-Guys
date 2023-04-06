@@ -22,14 +22,47 @@
 }
 
 .notable-winners-title {
-  margin-bottom: -40px;
+  /* margin-bottom: -40px; */
   margin-top: 60px;
   margin-left: 7%;
   font-size: 40px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media only screen and (min-width: 700px) {
-   
+.notable-winner-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notable-winner-picture-container {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.notable-winner-picture {
+  width: 100%;
+}
 
+.notable-winner-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 700px) {
+  .notable-winner-card {
+    flex-direction: row;
+  }
+  .notable-winner-picture-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .notable-winner-picture {
+    width: 250px;
+
+  }
 }

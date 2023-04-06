@@ -3,7 +3,7 @@ import React from "react";
 import "./InfoCard.css";
 
 function InfoCard(props) {
-  const { date, name, text } = props;
+  const { date, name, text, image } = props;
 
   return (
     <div className="info-card">
@@ -13,8 +13,11 @@ function InfoCard(props) {
         <p className="text-area">{text}</p>
       </div>
       <img
-        src="https://s4.static.brasilescola.uol.com.br/be/conteudo/images/2-albert-einstein.jpg"
-        alt="enst"
+        src={
+          image ||
+          "https://media.istockphoto.com/id/1208175274/vector/avatar-vector-icon-simple-element-illustrationavatar-vector-icon-material-concept-vector.jpg?s=612x612&w=0&k=20&c=t4aK_TKnYaGQcPAC5Zyh46qqAtuoPcb-mjtQax3_9Xc="
+        }
+        alt={name}
         width="40%"
       />
     </div>

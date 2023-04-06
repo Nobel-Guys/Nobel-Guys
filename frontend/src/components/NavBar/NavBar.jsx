@@ -92,14 +92,16 @@ function NavBar() {
           </Link>
         </div> */}
       </div>
-      <div className="logo" id="logo">
-        <img
-          className="logo-picture"
-          src="https://images.ctfassets.net/eqlypemzu8y5/7jcRtl2ykLzTjejTQH8uqr/fa292df0bda2de1e9afdaabe16955901/Nobel_Logo_Dark.png"
-          alt="logo"
-          height="50px"
-        />
-      </div>
+      <Link to="/">
+        <div className="logo" id="logo">
+          <img
+            className="logo-picture"
+            src="https://images.ctfassets.net/eqlypemzu8y5/7jcRtl2ykLzTjejTQH8uqr/fa292df0bda2de1e9afdaabe16955901/Nobel_Logo_Dark.png"
+            alt="logo"
+            height="50px"
+          />
+        </div>
+      </Link>
     </div>
   );
 }
