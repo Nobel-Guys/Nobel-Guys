@@ -117,9 +117,6 @@ function Categories() {
                       />
                     }
                   />
-                  <br />
-                  <br />
-                  <br />
                 </div>
               ))
             : null}

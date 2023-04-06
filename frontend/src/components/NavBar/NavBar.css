@@ -104,8 +104,23 @@ nav {
   border-width: 100%;
   padding-bottom: 10px;
 }
-
-@media only screen and (min-width: 700px) {
-   
-
+.nav-bar-desktop {
+    display: none;
 }
+@media only screen and (min-width: 700px) {
+.nav-container {
+    background-color: black;
+    height: 5em;
+    padding: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top:50px ;
+    padding-bottom: 50px;
+    
+  }
+  #logo{ margin-left: 0%;
+width: 70px;}
+  }
