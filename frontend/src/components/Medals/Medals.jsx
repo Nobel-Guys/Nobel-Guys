@@ -10,7 +10,7 @@ function Medals() {
       <div className="medal-column">
         <div className="medal-layout">
           <Link
-            to="/chemistry"
+            to="/categories/phy"
             // style={{ display: "flex", justifyContent: "center" }}
           >
             <div className="medal-card">
@@ -25,7 +25,7 @@ function Medals() {
           </Link>
 
           <Link
-            to="/chemistry"
+            to="/categories/med"
             // style={{ display: "flex", justifyContent: "center" }}
           >
             <div className="medal-card">
@@ -40,7 +40,7 @@ function Medals() {
           </Link>
 
           <Link
-            to="/chemistry"
+            to="/categories/lit"
             // style={{ display: "flex", justifyContent: "center" }}
           >
             <div className="medal-card">
@@ -56,7 +56,7 @@ function Medals() {
         </div>
         <div className="medal-layout">
           <Link
-            to="/chemistry"
+            to="/categories/che"
             // style={{ display: "flex", justifyContent: "center" }}
           >
             <div className="medal-card">
@@ -71,7 +71,7 @@ function Medals() {
           </Link>
 
           <Link
-            to="/chemistry"
+            to="/categories/eco"
             // style={{ display: "flex", justifyContent: "center" }}
           >
             <div className="medal-card">
@@ -86,7 +86,7 @@ function Medals() {
           </Link>
 
           <Link
-            to="/chemistry"
+            to="/categories/pea"
             // style={{ display: "flex", justifyContent: "center" }}
           >
             <div className="medal-card">
