@@ -38,22 +38,29 @@ function Footer() {
           </Link>
           <div className="icon-container2">
             <Link
-              to="https://www.instagram.com"
+              to="https://github.com/Nobel-Guys/Nobel-Guys"
+              target="_blank"
               style={{ display: "flex", justifyContent: "center" }}
             >
               <img
                 className="linkedin-logo"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ1tR5ualXXIjo6jTZQDaEnQPCFDFDXqJ6yxm2ppU&s"
                 alt="linkedin-icon"
-                width="5%"
+                width="20%"
               />
             </Link>
-            <img
-              className="github-logo"
-              src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png"
-              alt="github logo"
-              width="5%"
-            />
+            <Link
+              to="https://github.com/Nobel-Guys/Nobel-Guys"
+              target="_blank"
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <img
+                className="github-logo"
+                src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png"
+                alt="github logo"
+                width="7%"
+              />
+            </Link>
           </div>
         </div>
       </div>

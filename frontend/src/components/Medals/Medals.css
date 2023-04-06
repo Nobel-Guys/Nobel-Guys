@@ -22,9 +22,18 @@
   color: rgb(242, 243, 244);
   margin-top: -75px;
 }
+.medal-card {
+    display: flex;
+    flex-direction: column;
+}
 
-.medal {
-  /* -webkit-box-shadow: -1px -3px 78px 7px rgba(255, 255, 255, 0.172);
--moz-box-shadow: -1px -3px 78px 7px rgba(255,255,255,0.34);
-box-shadow: -1px -3px 78px 7px rgba(255,255,255,0.34); */
+
+
+
+@media only screen and (min-width: 700px) {
+   
+  .medal-layout {
+    display: flex;
+    flex-direction: row;
+  }
 }

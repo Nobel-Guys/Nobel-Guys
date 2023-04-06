@@ -33,7 +33,11 @@ function Categories() {
   // 'che', 'eco', 'lit', 'pea', 'phy', 'med'
   const filterArray = {
     che: ["otto hahn", "linus pauling", "frances"],
-    phy: ["otto hahn", "linus pauling", "frances"],
+    phy: ["albert einstein", "richard p. feynman", "peter higgs"],
+    lit: ["rudyard kipling", "albert camus", "kazuo ishiguro"],
+    eco: ["milton friedman", "amartya sen", "paul krugman"],
+    pea: ["martin luther king jr.", "mother teresa", "barack h. obama"],
+    med: ["ivan pavlov", "sir alexander fleming", "barbara mcclintock"],
   };
 
   const getLaureates = () => {
@@ -55,7 +59,6 @@ function Categories() {
     });
   };
 
-  //! falta terminar switch
   const getType = () => {
     switch (type) {
       case "che":
@@ -68,7 +71,7 @@ function Categories() {
         setTitle("Literature");
         break;
       case "pea":
-        setTitle("");
+        setTitle("Peace");
         break;
       case "phy":
         setTitle("Physics");
@@ -108,12 +111,15 @@ function Categories() {
                     iconStyle={{ background: "#000", color: "#fff" }}
                     date={
                       <InfoCard
-                        date={result?.knownName?.en}
+                        date={result?.nobelPrizes?.motivation?.en}
                         name={result?.knownName?.en}
                         text={result?.knownName?.en}
                       />
                     }
                   />
+                  <br />
+                  <br />
+                  <br />
                 </div>
               ))
             : null}

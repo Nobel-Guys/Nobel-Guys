@@ -27,7 +27,7 @@
   margin-top: 35px;
   text-align: center;
   font-size: 1rem;
-  padding-bottom: 60px;
+  padding-bottom: 140px;
 }
 
 h4 {
@@ -42,4 +42,39 @@ q {
   font-size: 15px;
   max-width: 50%;
   margin-bottom: 35px;
+}
+.sub-div-latest {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+
+@media only screen and (min-width: 700px) {
+   
+  .winners-column {
+    display: flex;
+  flex-direction: column;
+
+    gap: 45px;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 140px;
+    margin-left:5% ;
+    margin-right:5% ;
+    
+
+    
+  }
+  .sub-div-latest {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+  }
+  .subtitle {
+    margin-top: 60px !important;
+    font-size: 40px;
+    margin-left: 10%;
+  }
 }
