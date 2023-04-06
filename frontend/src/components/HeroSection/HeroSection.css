@@ -3,29 +3,20 @@
   height: 300px;
   object-fit: cover;
   margin-top: 0;
-  
 }
 
 .winners-l {
-
   margin-top: 50px;
-
-  
 }
 
 .subtitle {
-
-
   margin-top: 60px !important;
   font-size: 40px;
   margin-left: 7%;
- 
-
 }
 
-.hero-container-background{
-  background-color: #EEECE8;
-
+.hero-container-background {
+  background-color: #eeece8;
 }
 
 .winners-column {
@@ -33,31 +24,64 @@
   flex-direction: column;
   align-items: center;
   gap: 15px;
-margin-top: 35px;
-text-align: center;
-font-size: 1rem;
-padding-bottom: 60px;
-
+  margin-top: 35px;
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 140px;
 }
-
-
-
 
 h4 {
   font-size: 18px;
-
-
 }
 .category-subtitle {
-
   text-decoration: underline;
   font-size: 21px;
 }
 
 q {
   font-size: 15px;
-max-width: 50%;
+  max-width: 50%;
   margin-bottom: 35px;
+}
+.sub-div-latest {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
 }
 
 
+@media only screen and (min-width: 700px) {
+   
+  .winners-column {
+    display: flex;
+  flex-direction: column;
+
+    gap: 45px;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 140px;
+    margin-left:5% ;
+    margin-right:5% ;
+    
+
+    
+  }
+  .sub-div-latest {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+  }
+  .subtitle {
+    margin-top: 60px !important;
+    font-size: 40px;
+    margin-left: 10%;
+  }
+  .hero-image {
+    width:100%;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 0;
+  }
+  
+}

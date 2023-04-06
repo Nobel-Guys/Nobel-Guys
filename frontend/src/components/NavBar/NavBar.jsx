@@ -66,22 +66,33 @@ function NavBar() {
             </Link>
             <Link
               onClick={closeMenu}
-              to="/notablewinners"
+              to="/notable-winners"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="nav-list">Notable Winners</div>
             </Link>
             <Link
               onClick={closeMenu}
-              to="/AboutUs"
+              to="/about-us"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <div className="nav-list">About Us</div>
             </Link>
           </div>
         </div>
+        {/* <div className="nav-bar-desktop">
+          <Link to="/">
+            <div className="nav-list">Home</div>
+          </Link>
+          <Link to="/notable-winners">
+            <div className="nav-list">Notable Winners</div>
+          </Link>
+          <Link to="/about-us">
+            <li className="nav-list">About Us</li>
+          </Link>
+        </div> */}
       </div>
-      <div className="logo">
+      <div className="logo" id="logo">
         <img
           className="logo-picture"
           src="https://images.ctfassets.net/eqlypemzu8y5/7jcRtl2ykLzTjejTQH8uqr/fa292df0bda2de1e9afdaabe16955901/Nobel_Logo_Dark.png"

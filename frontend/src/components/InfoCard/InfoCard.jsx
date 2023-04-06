@@ -15,7 +15,7 @@ function InfoCard(props) {
       <img
         src="https://s4.static.brasilescola.uol.com.br/be/conteudo/images/2-albert-einstein.jpg"
         alt="enst"
-        width="30%"
+        width="40%"
       />
     </div>
   );
