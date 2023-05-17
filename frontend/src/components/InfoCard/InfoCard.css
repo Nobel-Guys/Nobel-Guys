@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  
 }
 
 .info-card {
@@ -18,4 +19,5 @@
 
 .text-area {
   text-align: center;
+
 }
